@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Bootstrap Widgets</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/site.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img src="./img/logo.png" alt="logo" id="logo">
+                </div>
+                <div class="col-md-8">
+                </div>
+                <div class="col-md-2" id="address">
+                    <p>Donuts Delights<br> 2112 Main Street<br> Urbana, Illinois 61801<br> (215) 555 - 1234</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="main">
+            <div class="col-md-12">
+                <nav class="navbar navbar-default" id="navbar">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                                aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav" id="navtab">
+                                <li><a href="index.html">HOME</a></li>
+                                <li><a href="menu.html">MENU</a></li>
+                                <li><a href="menu.html">ORDER</a></li>
+                                <li><a href="contact.html">CONTACT</a></li>
+                                <li><a href="about.html">ABOUT</a></li>
+                            </ul>
+                            <form class="navbar-form navbar-right" role="search">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                </div>
+                                <button type="submit" class="btn btn-default">Submit</button>
+                            </form>
+
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+
+                <div class="row">
+                    <div class="col-md-7" id="menu">
+                        <h1>Menu</h1>
+                        <hr>
+                        <div class="col-md-9">
+                            <h4>Bakers Dozen Donuts</h4>
+                            <p> chocolate frosted, vanilla frosted, boston cream, jelly filled, cream filled, glazed, chocolate
+                                glazed, marble twist, sugar raised, plain donut, plain cruller, honey wheat, jelly puff,
+                                cream puff, coffee roll.</p>
+                            <h4>Regular Donut</h4>
+                            <p>chocolate frosted, vanilla frosted, boston cream, jelly filled, cream filled, glazed, chocolate
+                                glazed, marble twist, sugar raised, plain donut, plain cruller, honey wheat, jelly puff,
+                                cream puff, coffee roll.</p>
+                            <h4>Fancy Donut</h4>
+                            <p>bow tie, éclair, apple turnover, fancy coffee roll.</p>
+                            <h4>French Cruller</h4>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-2">
+                            <p>(13)$8.65</p>
+                            <br><br><br><br>
+                            <p>$1.05</p>
+                            <br><br><br><br>
+                            <p>$2.00</p>
+                            <br>
+                            <p>$2.00</p>
+                        </div>
+
+                        <h1>
+                            <hr>Top Sellers
+                            <hr>
+                        </h1>
+                        <p>
+                            Pistachio Pinwheels<br> Boston Cream delights<br> Chocolate confetti<br> Marshmallow Mayhems<br>                            French twists<br> Bulls Horns<br>
+                        </p>
+                    </div>
+                    <div class="col-md-5" id="order">
+                        <h1>Order Now</h1>
+                        <p>
+                            <br><br><br><br><br>
+                            <br><br><br><br><br>
+                            <br><br><br><br><br>
+                            <br><br><br><br><br>
+                            <hr>
+                        </p>
+                        <p>Total:</p>
+                        <a class="btn btn-default pull-right" id="submitbtn" href="menu.html">Checkout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="footer">
+            <div class="col-md-12">
+                <div class="col-md-5">
+                    <p>2016 Donut Delights <a href="#">Term of use</a> | <a href="#">Privacy Policy</a></p>
+                </div>
+                <div class="col-md-5">
+                </div>
+                <div class="col-md-2" id="sociallinks">
+                    <a href="http://facebook.com">
+                        <img src="./img/link/facebook.png" alt="facebook">
+                    </a>
+                    <a href="http://twitter.com">
+                        <img src="./img/link/twitter.png" alt="twitter">
+                    </a>
+                    <a href="https://plus.google.com">
+                        <img src="./img/link/google.png" alt="google">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /div for container-->
+
+    <!-- JS -->
+    <!-- this is the jQuery CDN reference. You need internet access for this file! -->
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

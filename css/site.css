@@ -1,0 +1,168 @@
+body {
+    background: transparent;
+}
+
+#logo {
+    height: 100px;
+    width: 90%;
+}
+
+#address {
+    font-weight: bold;
+    text-align: right;
+}
+
+#main {
+    background-color: #763529;
+}
+
+#main p {
+    font-weight: bold;
+    color: #f5b143;
+    text-align: left;
+}
+
+#main h1 {
+    font-weight: bold;
+    color: #f5b143;
+}
+
+#navbar {
+    background-color: #432c26;
+    font-weight: bold;
+    font-size: 32px;
+    padding-top: 20px;
+    border: #432c26;
+}
+
+#navbar a {
+    color: #f5b143;
+}
+
+#navtab {
+    color: yellow;
+}
+
+.navbar-form.navbar-right {
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
+
+body .carousel-inner {
+    height: 600px;
+}
+
+#bottom1 {
+    border: 15px solid #763529;
+    background-color: #432c26;
+}
+
+#bottom1 #orderbtn {
+    border: transparent;
+    background-color: #f6b143;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+
+#bottom2 {
+    border: 15px solid #763529;
+    background-color: #432c26;
+}
+
+#bottom2 p {
+    text-align: center;    
+}
+
+#bottom2 a {
+    text-align: right;
+    margin-bottom: 25px;
+}
+
+#bottom3 {
+    border: 15px solid #763529;
+    background-color: #432c26;
+    padding-top: 10px;
+}
+
+#bottom3 form {
+    color:#f6b143;
+}
+
+#submitbtn {
+    border: transparent;
+    background-color: #f6b143;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer {
+    padding-top: 5px;
+    text-align: left;
+}
+
+#sociallinks img{
+    width: 20px;
+}
+
+label.error {
+    color: red;
+}
+
+#fire {
+    width: 450px;
+}
+
+#front {
+    width: 450px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#subscribe {
+    background-color: #432c26;
+    color: #f6b143;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center; 
+}
+
+#subscribe p {
+    text-align: center;
+}
+
+#map {
+    padding: 10px;
+}
+
+#feedback {
+    background-color: #432c26;
+    color: #432c26;
+    margin-top: 10px;
+}
+
+#feedback {
+    padding: 10px;
+}
+
+#feedback input {
+    width: 565px;
+}
+
+#feedback #feedbacktext {
+    height: 265px;
+}
+
+#menu h4 {
+    color:#f6b143;
+    font-weight: bold;
+}
+
+hr {
+    border-top: 2px solid #f6b143;
+}
+
+#order {
+    background-color: #432c26;
+}
