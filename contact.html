@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>Bootstrap Widgets</title>
+    <title>Contact Us</title>
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
         crossorigin="anonymous">
@@ -66,13 +66,19 @@
                 <div class="row">
                     <div class="col-md-12" id="subscribe">
                         <p>Subscribe to our newsletter for the latest on our seasonal offerings and special events:</p>
-                        <form>
-                            Your name:
-                            <input type="text" name="name">
-                            <br><br> Your email:
-                            <input type="text" name="email">
-                        </form>
-                        <a class="btn btn-default center-block" id="submitbtn" href="menu.html">Submit</a>
+                        <form action="https://formspree.io/jyang23@stu.parkland.edu" method="POST">
+                        <input type="hidden" name="_subject" value="new Subscription" />
+                        <input type="hidden" name="_next" value="http://mmeetty.github.io/my-simple-site/thanks.html" />
+                        <lable>Your name:</lable>
+                        <input type="text" name="name">
+                        <br><br>
+                        <lable>Youe email:</lable>
+                        <input type="text" name="email">
+                        <br>
+                        <button class="btn btn-default center-block" id="submitbtn" type="submit">Submit</button>
+                    </form>
+                        
+                        
                     </div>
                 </div>
 
@@ -84,12 +90,15 @@
                     <div class="col-md-6" id="feedback">
                         <p>Please contact us by phone: (215) 555 - 1234<br> or by email: contact@donutdelights.com<br> or leave
                             us your feedback below:</p>
-                        <form class="center-block">
-                            <input type="text" name="name" value="Your email">
-                            <br><br>
-                            <input type="text" name="feedback" id="feedbacktext">
-                        </form>
-                        <a class="btn btn-default pull-right" id="submitbtn" href="menu.html">Submit</a>
+                        <form class="center-block" action="https://formspree.io/jyang23@stu.parkland.edu" method="POST">
+                        <input type="hidden" name="_subject" value="new Feedback" />
+                        <input type="hidden" name="_next" value="http://mmeetty.github.io/my-simple-site/thanks.html" />
+                        <input type="text" name="email" value="Your email">
+                        <br><br>
+                        <input type="feedback" name="feedback" id="feedbacktext">
+                        <br>
+                        <button class="btn btn-default center-block" id="submitbtn" type="submit">Submit</button>
+                    </form>
                     </div>
                 </div>
             </div>

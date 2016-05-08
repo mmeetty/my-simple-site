@@ -166,3 +166,12 @@ hr {
 #order {
     background-color: #432c26;
 }
+
+
+.btn {
+    border: transparent;
+    background-color: #f6b143;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
