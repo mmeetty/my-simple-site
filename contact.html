@@ -67,18 +67,18 @@
                     <div class="col-md-12" id="subscribe">
                         <p>Subscribe to our newsletter for the latest on our seasonal offerings and special events:</p>
                         <form action="https://formspree.io/jyang23@stu.parkland.edu" method="POST">
-                        <input type="hidden" name="_subject" value="new Subscription" />
-                        <input type="hidden" name="_next" value="http://mmeetty.github.io/my-simple-site/thanks.html" />
-                        <lable>Your name:</lable>
-                        <input type="text" name="name">
-                        <br><br>
-                        <lable>Youe email:</lable>
-                        <input type="text" name="email">
-                        <br>
-                        <button class="btn btn-default center-block" id="submitbtn" type="submit">Submit</button>
-                    </form>
-                        
-                        
+                            <input type="hidden" name="_subject" value="new Subscription" />
+                            <input type="hidden" name="_next" value="http://mmeetty.github.io/my-simple-site/thanks.html" />
+                            <lable>Your name:</lable>
+                            <input type="text" name="name">
+                            <br><br>
+                            <lable>Youe email:</lable>
+                            <input type="text" name="email">
+                            <br>
+                            <button class="btn btn-default center-block" id="submitbtn" type="submit">Submit</button>
+                        </form>
+
+
                     </div>
                 </div>
 
@@ -91,14 +91,15 @@
                         <p>Please contact us by phone: (215) 555 - 1234<br> or by email: contact@donutdelights.com<br> or leave
                             us your feedback below:</p>
                         <form class="center-block" action="https://formspree.io/jyang23@stu.parkland.edu" method="POST">
-                        <input type="hidden" name="_subject" value="new Feedback" />
-                        <input type="hidden" name="_next" value="http://mmeetty.github.io/my-simple-site/thanks.html" />
-                        <input type="text" name="email" value="Your email">
-                        <br><br>
-                        <input type="feedback" name="feedback" id="feedbacktext">
-                        <br>
-                        <button class="btn btn-default center-block" id="submitbtn" type="submit">Submit</button>
-                    </form>
+                            <input type="hidden" name="_subject" value="new Feedback" />
+                            <input type="hidden" name="_next" value="http://mmeetty.github.io/my-simple-site/thanks.html" />
+                            <input type="text" name="email" value="Your email">
+                            <br><br>
+
+                            <textarea form="feedback" name="feedback" id="feedbacktext" cols="77" wrap="soft"></textarea>
+                            <br>
+                            <button class="btn btn-default center-block" id="submitbtn" type="submit">Submit</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -132,7 +133,16 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
         crossorigin="anonymous"></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-77263042-1', 'auto');
+  ga('send', 'pageview');
+
+    </script>
 </body>
 
 </html>
