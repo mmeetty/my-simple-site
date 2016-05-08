@@ -97,6 +97,14 @@ body .carousel-inner {
     margin-bottom: 10px;
 }
 
+#submitbtn2 {
+    border: transparent;
+    background-color: #f6b143;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 #footer {
     padding-top: 5px;
     text-align: left;
