@@ -90,12 +90,12 @@
                     <div class="col-md-6" id="feedback">
                         <p>Please contact us by phone: (215) 555 - 1234<br> or by email: contact@donutdelights.com<br> or leave
                             us your feedback below:</p>
-                        <form class="center-block" action="https://formspree.io/jyang23@stu.parkland.edu" method="POST">
+                        <form class="center-block" id="feedbackform" action="https://formspree.io/jyang23@stu.parkland.edu" method="POST">
                             <input type="hidden" name="_subject" value="new Feedback" />
                             <input type="hidden" name="_next" value="http://mmeetty.github.io/my-simple-site/thanks.html" />
                             <input type="text" name="email" value="Your email">
                             <br><br>
-                            <textarea form="feedback" name="feedback" id="feedbacktext" cols="77" wrap="soft"></textarea>
+                            <textarea form="feedbackform" name="feedback" id="feedbacktext" cols="77" wrap="soft"></textarea>
                             <br>
                             <button class="btn btn-default center-block" id="submitbtn2" type="submit">Submit</button>
                         </form>
