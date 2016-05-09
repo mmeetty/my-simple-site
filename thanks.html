@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>Contact Us</title>
+    <title>Thank You</title>
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
         crossorigin="anonymous">
@@ -54,7 +54,7 @@
                                 <div class="form-group">
                                     <input type="text" class="form-control" placeholder="Search">
                                 </div>
-                                <button type="submit" class="btn btn-default">Submit</button>
+                                <button type="submit" class="btn btn-default" id="submitbtn">Submit</button>
                             </form>
 
                         </div>
@@ -63,46 +63,11 @@
                     <!-- /.container-fluid -->
                 </nav>
 
-                <div class="row">
-                    <div class="col-md-12" id="subscribe">
-                        <p>Subscribe to our newsletter for the latest on our seasonal offerings and special events:</p>
-                        <form action="https://formspree.io/jyang23@stu.parkland.edu" method="POST">
-                            <input type="hidden" name="_subject" value="new Subscription" />
-                            <input type="hidden" name="_next" value="http://mmeetty.github.io/my-simple-site/thanks.html" />
-                            Your name:
-                            <input type="text" name="name">
-                            <br><br>
-                            Your email:
-                            <input type="text" name="email">
-                            <br>
-                            <button class="btn btn-default center-block" id="submitbtn" type="submit">Submit</button>
-                        </form>
-
-
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-6" id="map">
-                        <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:EiUyMTEyIFcgTWFpbiBTdCwgVXJiYW5hLCBJTCA2MTgwMSwgVVNB&key=AIzaSyBcLB7NVzXPnbFL3lXggQkhoT21UOqsiow"
-                            allowfullscreen></iframe>
-                    </div>
-                    <div class="col-md-6" id="feedback">
-                        <p>Please contact us by phone: (215) 555 - 1234<br> or by email: contact@donutdelights.com<br> or leave
-                            us your feedback below:</p>
-                        <form class="center-block" id="feedbackform" action="https://formspree.io/jyang23@stu.parkland.edu" method="POST">
-                            <input type="hidden" name="_subject" value="new Feedback" />
-                            <input type="hidden" name="_next" value="http://mmeetty.github.io/my-simple-site/thanks.html" />
-                            <input type="text" name="email" value="Your email">
-                            <br><br>
-                            <textarea form="feedbackform" name="feedback" id="feedbacktext" cols="77" wrap="soft"></textarea>
-                            <br>
-                            <button class="btn btn-default center-block" id="submitbtn2" type="submit">Submit</button>
-                        </form>
-                    </div>
-                </div>
+                <h1>Thank you for your submission!</h1>
+                <br>
             </div>
         </div>
+
         <div class="row" id="footer">
             <div class="col-md-12">
                 <div class="col-md-5">
@@ -110,7 +75,7 @@
                 </div>
                 <div class="col-md-5">
                 </div>
-                <div class="col-md-2" id="sociallinks">
+                <div class="col-md-2 pull-right" id="sociallinks">
                     <a href="http://facebook.com">
                         <img src="./img/link/facebook.png" alt="facebook">
                     </a>
@@ -140,7 +105,6 @@
 
   ga('create', 'UA-77263042-1', 'auto');
   ga('send', 'pageview');
-
     </script>
 </body>
 

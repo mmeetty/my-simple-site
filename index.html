@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>Bootstrap Widgets</title>
+    <title>Donut Delights</title>
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
         crossorigin="anonymous">
@@ -117,13 +117,18 @@
                 </div>
                 <div class="col-md-4" id="bottom3">
                     <p>Subscribe to our newsletter for the latest on our seasonal offerings and special events:</p>
-                    <form>
+                    <form action="https://formspree.io/jyang23@stu.parkland.edu" method="POST">
+                        <input type="hidden" name="_subject" value="new Subscription" />
+                        <input type="hidden" name="_next" value="http://mmeetty.github.io/my-simple-site/thanks.html" />
                         Your name:
                         <input type="text" name="name">
-                        <br><br> Youe email:
+                        <br><br>
+                        Your email:
                         <input type="text" name="email">
+                        <br>
+                        <button class="btn btn-default center-block" id="submitbtn2" type="submit">Submit</button>
                     </form>
-                    <a class="btn btn-default center-block" id="submitbtn" href="menu.html">Submit</a>
+
                 </div>
             </div>
         </div>
@@ -157,7 +162,15 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
         crossorigin="anonymous"></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-77263042-1', 'auto');
+  ga('send', 'pageview');
+    </script>
 </body>
 
 </html>
